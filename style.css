@@ -1,0 +1,104 @@
+* , body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    /* background-color: rgba(235, 136, 75, 0.76); */
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.navbar .logo{
+    width: 15%;
+    /* background-color: crimson; */
+    font-size: 44px;
+    align-items: left;
+    text-align: center;
+    justify-content: center;
+    margin-right: 5%;
+    margin-top: 9px;
+    color: darkred;
+
+
+}
+
+.navbar ul{
+    /* background-color: bisque; */
+    display: flex;
+    width: 50%;
+    text-align: right;
+    margin-right: 5%;
+    margin-top: 22px;
+    list-style: none;
+
+}
+
+.navbar ul li{
+    width: 22%;
+    /* text-align: right; */
+    font-size: 18px;
+    color: darkslateblue;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+}
+
+.navbar ul li .dropdown  {
+    display: block;
+    width: 133px;
+    height: 5px;
+    background-color: rgb(212, 203, 203);
+    transition: all .5s ease;
+    position: absolute;
+    top: 36px;
+    right: 222px;
+    opacity: 0;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.navbar ul li:hover .dropdown {
+    opacity: 100%;
+
+}
+
+.navbar ul li .dropdown .droplist{
+    text-align: left;
+    height: 90%;
+    width: 80%;
+}
+
+/* .navbar ul li:hover .dropdown .droplist{
+    opacity: 100%;
+
+} */
+
+.body_section{
+    /* background-color: rgb(46, 41, 35); */
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.body_section .box{
+    width: 23%;
+    background-image: url(./img/2.webp);
+    background-size: cover;
+    background-position: center;
+    margin: 12px 15px;
+
+}
